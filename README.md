@@ -1,2 +1,2 @@
 # Optimization
-Optimization for Data Science Course
+Optimization for Data Science, Course @ Télécom ParisTech
