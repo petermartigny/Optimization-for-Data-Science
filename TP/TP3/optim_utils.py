@@ -223,7 +223,7 @@ def test_solver_scipy(optimizer):
         # Run optimization method logging all the function calls
         logging_f = LoggingFunction(f)
         x0 = np.array([1.6, 1.1])
-        all_x_k, all_f_k = optimizer(x0, logging_f, f_prime, f_hessian)[-1][[0, 4]]
+        optimizer(f = logging_f, x0 = x0, fprime = f_prime, jac = f_hessian)#[-1][[0, 4]]
 
         # Plot the convergence
         all_x = np.array(logging_f.all_x)
