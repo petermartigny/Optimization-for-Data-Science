@@ -1,5 +1,5 @@
 # Optimization
-Optimization for Data Science Course @ Télécom ParisTech, [Alexandre Gramfort](http://alexandre.gramfort.net/) & [Stéphane Gaïffas](http://www.cmap.polytechnique.fr/~gaiffas/)
+#### Optimization for Data Science Course @ Télécom ParisTech, [Alexandre Gramfort](http://alexandre.gramfort.net/) & [Stéphane Gaïffas](http://www.cmap.polytechnique.fr/~gaiffas/)
 
 This course covers a general review of theory and practise of gradient-based algorithms to solve empirical risk minimization problems (mainly linear regression, logistic regression and support vector machines). For all methods, it covers also the proximal approach, dealing with regularization.
 
